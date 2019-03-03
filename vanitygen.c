@@ -448,6 +448,7 @@ main(int argc, char **argv)
 					"AC : Asiacoin : A\n"
 					"ACM : Actinium : N\n"
 					"AIB : Advanced Internet Block by IOBOND : A\n"
+					"ALTM : AltMarketsCoin : A\n"
 					"ANC : Anoncoin : A\n"
 					"ARS : Arkstone : A\n"
 					"ATMOS : Atmos : N\n"
@@ -979,6 +980,14 @@ main(int argc, char **argv)
 					"Generating ARS Address\n");
 					addrtype = 23;
 					privtype = 151;
+					break;
+			}
+			else
+			if (strcmp(optarg, "ALTM")== 0) {
+				fprintf(stderr,
+					"Generating ALTM Address\n");
+					addrtype = 23;
+					privtype = 170;
 					break;
 			}
 			else

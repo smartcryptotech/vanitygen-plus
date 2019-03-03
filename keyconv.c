@@ -91,6 +91,7 @@ main(int argc, char **argv)
 					"AC : Asiacoin : A\n"
 					"ACM : Actinium : N\n"
 					"AIB : Advanced Internet Block by IOBOND : A\n"
+					"ALTM : AltMarketsCoin : A\n"
 					"ANC : Anoncoin : A\n"
 					"ARS : Arkstone : A\n"
 					"ATMOS : Atmos : N\n"
@@ -624,7 +625,14 @@ main(int argc, char **argv)
 					break;
 			}
 			else
-			if (strcmp(optarg, "ANC")== 0) {
+			if (strcmp(optarg, "ALTM")== 0) {
+				fprintf(stderr,
+					"Decrypting ALTM Address\n");
+					addrtype_opt = 23;
+					privtype_opt = 170;
+					break;
+			}
+			elseif (strcmp(optarg, "ANC")== 0) {
 				fprintf(stderr,
 					"Decrypting ANC Address\n");
 					addrtype_opt = 23;

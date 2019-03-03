@@ -139,6 +139,7 @@ Current List of Available Coins for Address Generation
 |AC | Asiacoin | A  |
 |ACM | Actinium | N |
 |AIB | Advanced Internet Block by IOBOND | A  |
+|ALTM | AltMarketsCoin | A  |
 |ANC | Anoncoin | A  |
 |ARS | Arkstone | A  |
 |ATMOS | Atmos | N  |
