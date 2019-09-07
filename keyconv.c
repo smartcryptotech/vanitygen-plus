@@ -190,6 +190,7 @@ main(int argc, char **argv)
 					"ROI : ROIcoin : R\n"
 					"RVN : Ravencoin : R\n"
 					"SCA : Scamcoin : S\n"
+					"SCT : SmartCryptoTech : S or T\n"
 					"SDC : Shadowcoin : S\n"
 					"SKC : Skeincoin : S\n"
 					"SPR : Spreadcoin : S\n"
@@ -1182,6 +1183,14 @@ main(int argc, char **argv)
 					"Decrypting MNPCoin Address\n");
 					addrtype_opt = 50;
 					privtype_opt = 55;
+					break;
+			}
+			else
+			if (strcmp(optarg, "SCT")== 0) {
+				fprintf(stderr,
+					"Decrypting SmartCryptoTech Address\n");
+					addrtype_opt = 34;
+					privtype_opt = 51;
 					break;
 			}
 			else
