@@ -547,6 +547,7 @@ main(int argc, char **argv)
 					"ROI : ROIcoin: R\n"
 					"RVN : Ravencoin : R\n"
 					"SCA : Scamcoin : S\n"
+					"SCT : SmartCryptoTech : S or T\n"
 					"SDC : Shadowcoin : S\n"
 					"SKC : Skeincoin : S\n"
 					"SPR : Spreadcoin : S\n"
@@ -611,6 +612,14 @@ main(int argc, char **argv)
 					"Generating PIVX Address\n");
 					addrtype = 30;
 					privtype = 212;
+					break;
+			}
+			else
+			if (strcmp(optarg, "SCT")== 0) {
+				fprintf(stderr,
+					"Decrypting SCT Address\n");
+					addrtype_opt = 34;
+					privtype_opt = 51;
 					break;
 			}
 			else
