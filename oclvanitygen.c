@@ -1233,6 +1233,14 @@ main(int argc, char **argv)
 					break;
 			}
 			else
+			if (strcmp(optarg, "SCT")== 0) {
+				fprintf(stderr,
+					"Decrypting SCT Address\n");
+					addrtype_opt = 34;
+					privtype_opt = 51;
+					break;
+			}
+			else
 			if (strcmp(optarg, "VIPS")== 0) {
 				fprintf(stderr,
 					"Generating VIPSTARCOIN Address\n");
