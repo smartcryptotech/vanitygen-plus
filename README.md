@@ -233,6 +233,7 @@ Current List of Available Coins for Address Generation
 |ROI | ROIcoin | R  |
 |RVN | Ravencoin | R |
 |SCA | Scamcoin | S  |
+|SCT | SmartCryptoTech | S or T |
 |SDC | Shadowcoin | S  |
 |SKC | Skeincoin | S  |
 |SPR | Spreadcoin | S  |
