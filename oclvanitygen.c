@@ -284,6 +284,7 @@ main(int argc, char **argv)
 					"ROI : ROIcoin : R\n"
 					"RVN : Ravencoin : R\n"
 					"SCA : Scamcoin : S\n"
+					"SCT : SmartCryptoTech : S or T\n"
 					"SDC : Shadowcoin : S\n"
 					"SKC : Skeincoin : S\n"
 					"SPR : Spreadcoin : S\n"
